@@ -23,7 +23,7 @@ The Train Line Information Search Application is designed to provide users with 
 ## Prototype 
 Figma was use to create the prototype. There were main two(2) desig options. Option 1 was approved during the option selection review sprint.
 
-**Reason for Creating the App**
+## **Reason for Creating the App**
 
 Enhancing search capabilities for train line information addresses the shortcomings of current tools, which often lack flexibility and comprehensive functionality. This application provides a modern and intuitive solution to these challenges, offering the following benefits:
 *  Improved Efficiency: By using advanced search capabilities and real-time data, users can access relevant train line information in seconds.
