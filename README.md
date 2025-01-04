@@ -21,7 +21,7 @@ The Train Line Information Search Application is designed to provide users with 
 <img width="814" alt="Fig: HomePage" src="https://github.com/user-attachments/assets/2ccddf9d-6ac6-43a1-8f5d-dfb6d9e7fc44" />
 
 ## Prototype 
-Figma was use to create the prototype. There were main two(2) desig options. Option 1 was approved during the option selection review sprint.
+In my organisation, more than one project designs option go through the option selection review. Green is the best and orange is alternative. Any other option will be categorised as red. In the light of this, I  used Figma to create two design options. The design process involved creating interactive prototypes for each concept, allowing for a more realistic representation of the user experience. These prototypes simulated key functionalities such as the alphabet-based search and result display, providing a clearer vision of how users would interact with the application. While ideally, a user survey would have been conducted to gather quantitative feedback, the current busy period in train infrastructure management and timetabling necessitated a more expedient approach. Instead, I opted for a visual check with colleagues, for a quick response turnaround to make a timely decision. 
 
 ## **Reason for Creating the App**
 
