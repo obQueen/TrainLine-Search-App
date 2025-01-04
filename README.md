@@ -6,7 +6,7 @@ For Northeastern University
 
 Author GitHub Username: @obQueen
 
-## **Train Line Information Search Application**
+# **Train Line Information Search Application**
 The Train Line Information Search Application is designed to provide users with a seamless way to search for train lines and routes using flexible and advanced search criteria. By integrating features like wildcard searches and logical operators, the app ensures that users can quickly and efficiently find the information they need. Below are the key highlights and benefits of this application:
 
 ### Key Features
