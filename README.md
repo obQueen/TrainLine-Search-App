@@ -36,3 +36,16 @@ In my organisation, more than one project designs option go through the option s
 
 
 
+
+
+### Project Management
+For the Train Line Information Search Application, an incremental linear approach was employed using GitHub Projects to streamline development and gradually add features to the prototype. This structured methodology involved upfront requirements gathering, incremental feature development, and rigorous testing of each component before progression. Visual task tracking through a Kanban board facilitated risk management and error detection, enabling quicker delivery of functional prototypes and simplified testing of smaller, manageable increments. The combination of structured workflows and iterative refinement ensured the effective and collaborative development of the application while maintaining flexibility for enhancements.
+
+#### Project Scheduling and Review
+To capture and manage requirements for the Train Line Information Search Application, I utilised GitHub Issues and a comprehensive feature branching strategy within the project repository. Each requirement was documented as a separate issue with descriptive titles, detailed descriptions, and relevant labels for easy categorisation. I created dedicated feature branches for each new functionality or task, allowing for isolated development and testing. As work progressed, these branches were managed through pull requests, which facilitated code review and simulated would-be discussion before merging changes into the main branch.
+
+The GitHub Projects Kanban board was used to visualise these issues and track their progress, with columns representing different stages of development (e.g., "To Do", "In Progress", "In Review", and "Done"). When a feature was completed and tested, the corresponding pull request was created to merge the branch into the main branch. This approach enabled systematic requirement tracking, facilitated collaborative development, and provided a transparent view of the project's status.
+
+By leveraging GitHub's issue tracking, feature branching, and pull request features, I could incrementally add and refine features to the prototype. This method ensured visibility into the project's scope and progress, supporting effective communication, development, and delivery of the Train Line Information Search Application.
+
+![Image alt](https://github.com/obQueen/TrainLine-Search-App/blob/57393e50b2f69eb6e94f2a2060a046675692d49b/Kanban.png)
