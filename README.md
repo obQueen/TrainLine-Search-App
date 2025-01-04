@@ -41,7 +41,7 @@ In my organisation, more than one project designs option go through the option s
 ## Project Management
 For the Train Line Information Search Application, an incremental linear approach was employed using GitHub Projects to streamline development and gradually add features to the prototype. This structured methodology involved upfront requirements gathering, incremental feature development, and rigorous testing of each component before progression. Visual task tracking through a Kanban board facilitated risk management and error detection, enabling quicker delivery of functional prototypes and simplified testing of smaller, manageable increments. The combination of structured workflows and iterative refinement ensured the effective and collaborative development of the application while maintaining flexibility for enhancements.
 
-### Ticketing System
+## Ticketing System
 To capture and manage requirements for the Train Line Information Search Application, I utilised GitHub Issues and a comprehensive feature branching strategy within the project repository. Each requirement was documented as a separate issue with descriptive titles, detailed descriptions, and relevant labels for easy categorisation. I created dedicated feature branches for each new functionality or task, allowing for isolated development and testing. As work progressed, these branches were managed through pull requests, which facilitated code review and simulated would-be discussion before merging changes into the main branch.
 
 The GitHub Projects Kanban board was used to visualise these issues and track their progress, with columns representing different stages of development (e.g., "To Do", "In Progress", and "Done"). When a feature was completed and tested, the corresponding pull request was created to merge the branch into the main branch. This approach enabled systematic requirement tracking, facilitated collaborative development, and provided a transparent view of the project's status.
@@ -114,7 +114,7 @@ Below is a step-by-step guide on how I produced the Train Line Information Searc
 
 Throughout the development of the Train Line Information Search Application, I adhered to best coding practices to ensure maintainability and readability. In the JavaScript file (script.js), I consistently used camelCase naming conventions for variables and functions, enhancing code clarity. Proper indentation was maintained across all files (HTML, CSS, and JavaScript) to improve code structure and readability. To aid understanding, I included concise yet informative comments throughout the script.js file, explaining the purpose and functionality of key code blocks. For instance, the fetchTrainLines() function is accompanied by comments detailing the API call process and data parsing steps. This approach not only facilitates my own code management but also makes it easier for potential collaborators to understand and contribute to the project. Additionally, I structured the code into logical functions (e.g., createAlphabetButtons(), displayResults()) to promote modularity and ease of maintenance.
 
-# ** Testing **
+# **Testing**
 
 I conducted both manual user acceptance test and automated testing to ensure all functionalities worked as intended. Manual testing involved structured forms listing actions and expected results for validation. Automated unit testing, using Jest and jsdom, focused on key features like API integration and search functionality (api.test.js and search.test.js).
 
@@ -123,15 +123,15 @@ I conducted both manual user acceptance test and automated testing to ensure all
 1. **Test Plan Creation**: I created a test plan that included specific actions associated with key functionalities of the application. Each action was paired with an expected outcome to provide clear criteria for evaluation.
 
 2. **Testing Actions**: The following functionalities were tested:
-   - **Application Launch**: Users ran `TIndex.html` in a browser (e.g., Chrome) to ensure the application loaded correctly.
-   - **Contact Us Navigation**: Users clicked on the “Contact Us” menu to verify that it navigated correctly to the contact page.
-   - **Search Navigation**: Users clicked on the “Search” menu to confirm proper navigation to the search functionality.
-   - **Back Button Functionality**: Users clicked the “Back” button on both the “Contact Us” and “Search” pages to ensure it returned them to the previous page.
-   - **Home Button Functionality**: Users clicked the “Home” button on both pages to verify that it refreshed the application as intended.
-   - **Alphabet Button Filtering**: Users clicked any of the alphabet buttons to check if the application filtered train lines starting with the selected letter.
-   - **Single Character Search**: Users searched using one character only (e.g., ‘A’) and clicked on the search button to verify that results displayed correctly.
-   - **Special Character Search**: Users searched using at least one character combined with special characters (e.g., ‘A*’) in the Line Name input field and clicked on the search button.
-   - **Combined Search Criteria**: Users searched using at least one character combined with * or % in both the Name input and Route fields while checking different “Search Type” options.
+   - Application Launch: Users ran `TIndex.html` in a browser (e.g., Chrome) to ensure the application loaded correctly.
+   - Contact Us Navigation: Users clicked on the “Contact Us” menu to verify that it navigated correctly to the contact page.
+   - Search Navigation: Users clicked on the “Search” menu to confirm proper navigation to the search functionality.
+   - Back Button Functionality: Users clicked the “Back” button on both the “Contact Us” and “Search” pages to ensure it returned them to the previous page.
+   - Home Button Functionality: Users clicked the “Home” button on both pages to verify that it refreshed the application as intended.
+   - Alphabet Button Filtering: Users clicked any of the alphabet buttons to check if the application filtered train lines starting with the selected letter.
+   - Single Character Search: Users searched using one character only (e.g., ‘A’) and clicked on the search button to verify that results displayed correctly.
+   - Special Character Search: Users searched using at least one character combined with special characters (e.g., ‘A*’) in the Line Name input field and clicked on the search button.
+   - Combined Search Criteria**: Users searched using at least one character combined with * or % in both the Name input and Route fields while checking different “Search Type” options.
 
 3. **User Feedback**: Participants in the testing process used a structured form to indicate whether each action passed or failed based on the expected results. This feedback provided valuable insights into the application's performance and usability.
 
@@ -147,13 +147,13 @@ To evaluate and improve the quality of the web application, I used Google Lighth
 
 ![Manual User Acceptance Form](https://github.com/obQueen/TrainLine-Search-App/blob/862e4f051378a4d7a77dc63940d4c99df8fc5c96/Manual%20App%20Test.pdf)
 
-### **Unit Testing **
+### **Unit Testing**
 
 Unit testing, defined as testing “the smallest functional unit of code” (AWS, 2024), was conducted for the "Train Line Information App" using Jest. Following an incremental lifecycle model, the tests ensured each feature, including the `performSearch` function, worked correctly before advancing to subsequent stages. This function, which filters train lines based on user input and updates the DOM, was tested for input validation, AND/OR search functionality, and cases with no matches.
 
 The test suite utilised `jsdom` for DOM simulation, `beforeEach` for a clean test environment, and mock train line data to replicate real-world scenarios. API integration and search functionality were validated through `api.test.js`, `search.test.js`, and a `package.json` file. Commands such as `npx jest api.test.js` and `npx jest search.test.js` were executed to ensure functionality. Despite initial challenges installing Node.js on a restricted device, all tests passed, confirming reliability and supporting the development of programming skills.
 
-[Unit Test and Result Screenshot](https://github.com/obQueen/TrainLine-Search-App/blob/ab1be7c08d2c541ca86431d6687ed5f9cbc5a1f6/Test_FetchTrainLines.png)
+![Unit Test and Result Screenshot](https://github.com/obQueen/TrainLine-Search-App/blob/ab1be7c08d2c541ca86431d6687ed5f9cbc5a1f6/Test_FetchTrainLines.png)
 
 ### ** Performance and Accessibility Testing **
 
