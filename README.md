@@ -154,6 +154,7 @@ Unit testing, defined as testing “the smallest functional unit of code” (AWS
 The test suite utilised `jsdom` for DOM simulation, `beforeEach` for a clean test environment, and mock train line data to replicate real-world scenarios. API integration and search functionality were validated through `api.test.js`, `search.test.js`, and a `package.json` file. Commands such as `npx jest api.test.js` and `npx jest search.test.js` were executed to ensure functionality. Despite initial challenges installing Node.js on a restricted device, all tests passed, confirming reliability and supporting the development of programming skills.
 
 ![Unit Test and Result Screenshot](https://github.com/obQueen/TrainLine-Search-App/blob/ab1be7c08d2c541ca86431d6687ed5f9cbc5a1f6/Test_FetchTrainLines.png)
+![Unit Test - Search](https://github.com/obQueen/TrainLine-Search-App/blob/92a10214552c2c876cbfbd20b7a3970dd420a49c/Unit%20Test%20-Search.png)
 
 ### ** Performance and Accessibility Testing **
 
