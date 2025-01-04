@@ -114,18 +114,11 @@ Below is a step-by-step guide on how I produced the Train Line Information Searc
 
 Throughout the development of the Train Line Information Search Application, I adhered to best coding practices to ensure maintainability and readability. In the JavaScript file (script.js), I consistently used camelCase naming conventions for variables and functions, enhancing code clarity. Proper indentation was maintained across all files (HTML, CSS, and JavaScript) to improve code structure and readability. To aid understanding, I included concise yet informative comments throughout the script.js file, explaining the purpose and functionality of key code blocks. For instance, the fetchTrainLines() function is accompanied by comments detailing the API call process and data parsing steps. This approach not only facilitates my own code management but also makes it easier for potential collaborators to understand and contribute to the project. Additionally, I structured the code into logical functions (e.g., createAlphabetButtons(), displayResults()) to promote modularity and ease of maintenance.
 
-# **Testing**
-For the Train Line Information Search Application, I employed a manual and automatic testing strategy to ensure that all functionalities operated as intended. The manual process involved creating a structured form that listed various actions and their expected results, allowing users to respond with "pass" or "fail" for each function tested.
-
-
-
-#### Manual Testing Process
-
-### Testing
+# ** Testing **
 
 I conducted both manual user acceptance test and automated testing to ensure all functionalities worked as intended. Manual testing involved structured forms listing actions and expected results for validation. Automated unit testing, using Jest and jsdom, focused on key features like API integration and search functionality (api.test.js and search.test.js).
 
-#### Manual Testing Process
+### Manual Testing Process
 
 1. **Test Plan Creation**: I created a test plan that included specific actions associated with key functionalities of the application. Each action was paired with an expected outcome to provide clear criteria for evaluation.
 
@@ -144,7 +137,7 @@ I conducted both manual user acceptance test and automated testing to ensure all
 
 4. **Issue Identification**: Any failures reported were documented, allowing for prompt investigation and resolution of issues.
 
-#### Results
+### Results
 
 The manual testing approach allowed for direct user interaction with the application, providing immediate feedback on functionality and user experience. This method ensured that any issues were identified early in the development process, leading to a more reliable and user-friendly Train Line Information Search Application.
 
