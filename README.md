@@ -126,17 +126,20 @@ By leveraging GitHub's issue tracking, feature branching, and pull request featu
 
 ### Code List for Application
 
-* index.html: main html file for the application
-* ContactUs.html: Contact Us page
-* Search.html: Search Page 
-* Styles.css: CSS file for styling
-* Script.js: JavaScript file containing core functionality
-* Search.js: Searches and displays train line information
+* index.html
+* ContactUs.html
+* Search.html
+* Styles.css
+* Script.js
+* Search.js
 
 
 ### Files used in testing
 
-* App Test.docx   //  for manual testing but uploaded here as .pdf 
+* App Test.docx   //  for manual testing but uploaded here as .pdf
+* api.test.js
+* search.test.js
+* package.json
 
 
 ### **User End Links**
