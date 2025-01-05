@@ -79,12 +79,12 @@ You can select 'OR' or 'AND' in your search.
 * select OR for records that meet atleast one of the entry criteria in the user input fields
 * select AND for records that meet both of the entry criteria  user input fields
 
-##### Reading Search Results
+#### Reading Search Results
 Results are displayed on screen in table format
 Each record shows the line name and its route.
 If no results are found, you'll see a message indicating "No Results Found".
 
-##### Troubleshooting
+#### Troubleshooting
 
 * No Results Found
  * Check your spelling.
