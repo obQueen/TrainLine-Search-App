@@ -59,40 +59,23 @@ In order to run this application:
 ### Using The Application
 
 #### Basic Search
-* In the search box, type the name of a train line or a route you want to find.
-* Click the "Search" button or press Enter.
+* Enter a train line or route name in the search box.
+* Click "Search" or press Enter.
 * Results will appear below the search box.
 
-#### Wildcard Search
-You can use '*' as a wildcard in your search. To find line name or route:
-* starting with "London": Type "London*" and search.
-* starting with "A": Type "A*" and search.
-* ending with "Express": Type "*Express" and search.
-* containing "West": Type "*West*" and search.
-
+#### Wildcard (*) Search
+You can use '*' as a suffix, prefix or both. For example, \*Express\, \City*\, \*Central\*
  
 #### Boolean Search
-You can select 'OR' or 'AND' in your search. 
-* Use any of the options listed under wildcard search
-* select OR for records that meet atleast one of the entry criteria in the user input fields
-* select AND for records that meet both of the entry criteria  user input fields
+Select 'OR' for records meeting one criterion or 'AND' for records meeting all criteria. Combine with wildcard options for refined results. 
 
 #### Reading Search Results
-Results are displayed on screen in table format
-Each record shows the line name and its route.
-If no results are found, you'll see a message indicating "No Results Found".
+Results are displayed in a table with line name and route. If no matches are found, "No Results Found" appears.
 
 #### Troubleshooting
 
-* No Results Found
- * Check your spelling.
- * Try using wildcards for a broader search.
- * Ensure you're connected to the internet.
-
-* Page Not Loading
- * Check your internet connection.
- * Try refreshing the page.
- * Clear your browser cache and try again.
+* No Results Found : Check spelling, use wildcards, ensure internet connection
+* Page Not Loading : Check connection, refresh the page, or clear browser cache
 
 #### Feedback and Support
 If you encounter any issues or have suggestions for improvement, please contact us page **[insert contact email/form here].**
