@@ -11,10 +11,12 @@ The Train Line Information Search Application is designed to provide users with 
 
 ### Key Features
 *  Search Functionality:
+  
   *  Wildcard Support: Allows users to include * or % in their search to match any sequence of characters in line names or routes.
   *  Logical Operators: Enables users to combine search criteria with AND/OR logic for more refined results.
   *  Real-Time Updates: Incorporates live data from train schedules and disruption APIs to ensure up-to-date and accurate information.
 *  Dynamic Results Display:
+  
   *  Results are shown in a user-friendly table format, clearly listing train line names and their corresponding routes.
   *  Includes a "No Results Found" message for unmatched queries, ensuring clarity and user feedback.
 
