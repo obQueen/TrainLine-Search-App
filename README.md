@@ -121,7 +121,7 @@ By leveraging GitHub's issue tracking, feature branching, and pull request featu
 * [HMTL](https://devdocs.io/html/)
 * [CSS](https://devdocs.io/css/)
 * [JS](https://devdocs.io/javascript/)
-* [JS](https://www.w3schools.com/js/)
+* [JSON](https://gjs-docs.gnome.org/json10~1.0/)
 
 
 ### Code List for Application
