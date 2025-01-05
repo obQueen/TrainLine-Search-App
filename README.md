@@ -221,7 +221,8 @@ The test suite utilised `jsdom` for DOM simulation, `beforeEach` for a clean tes
 ![Unit Test and Result Screenshot](https://github.com/obQueen/TrainLine-Search-App/blob/ab1be7c08d2c541ca86431d6687ed5f9cbc5a1f6/Test_FetchTrainLines.png)
 ![Unit Test - Search](https://github.com/obQueen/TrainLine-Search-App/blob/92a10214552c2c876cbfbd20b7a3970dd420a49c/Unit%20Test%20-Search.png)
 
-### ** Performance and Accessibility Testing **
+
+### **Performance and Accessibility Testing**
 ![Home Page Lighthouse Test](https://github.com/obQueen/TrainLine-Search-App/blob/8248c8d0bfb4df47bc57d3689818a8c9aa4fe274/Lighthouse%20Home-Page.png)
 ![Search Page Lighthouse Test](https://github.com/obQueen/TrainLine-Search-App/blob/8248c8d0bfb4df47bc57d3689818a8c9aa4fe274/Lighthouse%20Search-Page.png)
 
