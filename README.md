@@ -132,32 +132,30 @@ By leveraging GitHub's issue tracking, feature branching, and pull request featu
 
 ## Code Implementation
 
-Below is a step-by-step guide on how I produced the Train Line Information Search Application MVP:
+Steps to develop the Train Line Information Search Application MVP:
 
-1. I created the main HTML files (index.html, contactUs.html, search.html) to structure the application's pages.
+1. HTML: Created main pages (index.html, contactUs.html, search.html).
 
-2. In the styles.css file, I implemented the styling for the application to ensure a user-friendly interface.
+2. CSS: Styled the application for a user-friendly interface.
 
-3. In the script.js file, I implemented the core functionality:
-   - Created the createAlphabetButtons() function to generate clickable alphabet buttons for searching.
-   - Implemented the fetchTrainLines() function to asynchronously retrieve train line data from an external source (railwaycodes.org.uk).
-   - Developed the displayResults(letter) function to filter and display train lines based on the selected letter.
+3. Java Script:
+   - Developed createAlphabetButtons() to generate search buttons.
+   - Used fetchTrainLines() with the Fetch API (via All Origins) to retrieve train line data(railwaycodes.org.uk) and handle CORS.
+   - Implemented displayResults(letter) to filter and display search results.
 
-4. I used the Fetch API with the All Origins service to bypass CORS restrictions when fetching data from the external source.
+4. Added error handling for data retrieval failures and "no results" cases.
 
-5. Implemented error handling in the fetchTrainLines() and displayResults() functions to manage cases where data retrieval fails or no results are found.
+5. Parsed fetched HTML data to extract train line details.
 
-6. Created a function to parse the HTML content received from the API and extract relevant train line information.
+6. Displayed results in a table showing line names and routes.
 
-7. Implemented a tabular display for search results, showing line names and routes.
+7. Integrated navigation functions (`goBack()` and `goHome()`) for better UX.
 
-8. Added navigation functions (goBack() and goHome()) to improve user experience.
-
-9. Finally, I called the createAlphabetButtons() function to initialize the application's search functionality.
+8. Called `createAlphabetButtons()` to activate search functionality.
 
 ## Code Style and Conventions
 
-Throughout the development of the Train Line Information Search Application, I adhered to best coding practices to ensure maintainability and readability. In the JavaScript file (script.js), I consistently used camelCase naming conventions for variables and functions, enhancing code clarity. Proper indentation was maintained across all files (HTML, CSS, and JavaScript) to improve code structure and readability. To aid understanding, I included concise yet informative comments throughout the script.js file, explaining the purpose and functionality of key code blocks. For instance, the fetchTrainLines() function is accompanied by comments detailing the API call process and data parsing steps. This approach not only facilitates my own code management but also makes it easier for potential collaborators to understand and contribute to the project. Additionally, I structured the code into logical functions (e.g., createAlphabetButtons(), displayResults()) to promote modularity and ease of maintenance.
+Throughout the development of the Train Line Information Search Application, I adhered to best coding practices to ensure maintainability and readability. In script.js, I employed camelCase for variables and functions and maintained consistent indentation across HTML, CSS, and JavaScript files to enhance structure. Concise comments were added to explain key functions, such as fetchTrainLines(), detailing API calls and data parsing. This approach facilitates code management and collaboration. Additionally, organising the code into logical functions (e.g., createAlphabetButtons(), displayResults()) promotes modularity and ease of maintenance.
 
 # **Testing**
 
@@ -194,9 +192,10 @@ To evaluate and improve the quality of the web application, I used Google Lighth
 
 ### **Unit Testing**
 
-Unit testing, defined as testing “the smallest functional unit of code” (AWS, 2024), was conducted for the "Train Line Information App" using Jest. Following an incremental lifecycle model, the tests ensured each feature, including the `performSearch` function, worked correctly before advancing to subsequent stages. This function, which filters train lines based on user input and updates the DOM, was tested for input validation, AND/OR search functionality, and cases with no matches.
+Unit testing, defined as testing "the smallest functional unit of code" (AWS, 2024), was conducted for the "Train Line Information App" using Jest. Following an incremental lifecycle, tests validated each feature, including the `performSearch` function, before progressing. This function, which filters train lines and updates the DOM, was tested for input validation, AND/OR search functionality, and no-match scenarios.
 
-The test suite utilised `jsdom` for DOM simulation, `beforeEach` for a clean test environment, and mock train line data to replicate real-world scenarios. API integration and search functionality were validated through `api.test.js`, `search.test.js`, and a `package.json` file. Commands such as `npx jest api.test.js` and `npx jest search.test.js` were executed to ensure functionality. Despite initial challenges installing Node.js on a restricted device, all tests passed, confirming reliability and supporting the development of programming skills.
+The test suite used `jsdom` for DOM simulation, `beforeEach` for a clean environment, and mock data to simulate real-world conditions. API integration and search functionality were validated through `api.test.js`, `search.test.js`, and `package.json`. Despite initial challenges with Node.js installation on a restricted device, all tests passed, confirming reliability and supporting skill development.
+
 
 ![Unit Test and Result Screenshot](https://github.com/obQueen/TrainLine-Search-App/blob/ab1be7c08d2c541ca86431d6687ed5f9cbc5a1f6/Test_FetchTrainLines.png)
 ![Unit Test - Search](https://github.com/obQueen/TrainLine-Search-App/blob/92a10214552c2c876cbfbd20b7a3970dd420a49c/Unit%20Test%20-Search.png)
