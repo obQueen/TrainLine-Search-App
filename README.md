@@ -223,10 +223,23 @@ The test suite utilised `jsdom` for DOM simulation, `beforeEach` for a clean tes
 
 
 ### **Performance and Accessibility Testing**
+"Lighthouse is an open-source, automated tool for analysing a web page in order to help the developer improve such page(s). The metrics being analysed for thia application are: performance, accessibility, best practice, and Search Engine Optimisation(SEO)"(Chrome, n.d) .
+
+* Performance: Measure focuses on speed and responsiveness.
+* Accessibility: Evaluates ease of use and interaction.
+* Best Practices: Aggregate scores relating to industry standards and security.For example, use of https.
+* SEO :  Evaluates webpage optimisation for search engine visibility and ranking.
+
 ![Home Page Lighthouse Test](https://github.com/obQueen/TrainLine-Search-App/blob/8248c8d0bfb4df47bc57d3689818a8c9aa4fe274/Lighthouse%20Home-Page.png)
 ![Search Page Lighthouse Test](https://github.com/obQueen/TrainLine-Search-App/blob/8248c8d0bfb4df47bc57d3689818a8c9aa4fe274/Lighthouse%20Search-Page.png)
 
 The Lighthouse performance audit reveals consistent high scores across the train line information app's index (home) and search pages. Both pages achieved perfect scores of 100 in performance, indicating exceptional optimisation for speed and responsiveness. The accessibility score for the index page is 100, while the search page scored 92, suggesting minor areas for improvement in usability, particularly for users with disabilities. In terms of best practices, the index page scored 100, compared to the search page's score of 96, highlighting a need for slight enhancements in adherence to web development standards on the search page. Finally, both pages maintained an SEO score of 90, indicating effective search engine optimisation strategies. Overall, these results demonstrate strong functionality and inclusivity across both pages, with specific attention needed on the search page for accessibility and best practices.
 
 
+# GITHUB ACTIONS
 
+# EVALUATION OF DESIGN
+
+
+## REFERENCES
+Chrome(n.d) Introduction to Lighthouse [Online]. Available at: https://developer.chrome.com/docs/lighthouse/overview. (Accessed: 05 January, 2025)
