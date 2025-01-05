@@ -222,15 +222,10 @@ The test suite utilised `jsdom` for DOM simulation, `beforeEach` for a clean tes
 ![Unit Test - Search](https://github.com/obQueen/TrainLine-Search-App/blob/92a10214552c2c876cbfbd20b7a3970dd420a49c/Unit%20Test%20-Search.png)
 
 ### ** Performance and Accessibility Testing **
-
-
-### **Results**
-The application achieved an outstanding performance score of 99, indicating exceptional optimization for fast loading times, which significantly enhances user experience and minimizes bounce rates. The accessibility score of 84 reflects a solid commitment to usability, ensuring that users of all abilities can navigate the site effectively. The design features contrasting colors and clear labels, promoting intuitive interaction.
-
-The web application achieved impressive scores across key areas in the Lighthouse audit. With a perfect performance score of 100, the app demonstrates exceptional optimization for speed and responsiveness, significantly enhancing user experience. The accessibility score of 92 reflects substantial improvements over the original website, particularly in the use of contrasting colours. Unlike the original site, which may have posed challenges for users with colour blindness, this web app intentionally employs high-contrast colour schemes to improve readability and element identification for all users. The best practices rating of 96 indicates strong adherence to current web development standards, ensuring a robust and user-friendly interface. Lastly, the SEO score of 90 suggests that the application is well-structured for search engine visibility, potentially increasing organic traffic without relying heavily on paid advertising. These scores collectively represent a significant enhancement in both functionality and inclusivity compared to the original website.
-
 ![Home Page Lighthouse Test](https://github.com/obQueen/TrainLine-Search-App/blob/8248c8d0bfb4df47bc57d3689818a8c9aa4fe274/Lighthouse%20Home-Page.png)
 ![Search Page Lighthouse Test](https://github.com/obQueen/TrainLine-Search-App/blob/8248c8d0bfb4df47bc57d3689818a8c9aa4fe274/Lighthouse%20Search-Page.png)
 
-### **Results**
-The Lighthouse performance audit reveals consistent high scores across the train line information app's index and search pages. Both pages achieved perfect 100 scores in performance, with slight variations in accessibility (100 vs 92) and best practices (100 vs 96). The SEO score remained constant at 90 for both pages, indicating relatively uniform search engine optimisation and minor opportunities for accessibility improvements on the search page.
+The Lighthouse performance audit reveals consistent high scores across the train line information app's index (home) and search pages. Both pages achieved perfect scores of 100 in performance, indicating exceptional optimisation for speed and responsiveness. The accessibility score for the index page is 100, while the search page scored 92, suggesting minor areas for improvement in usability, particularly for users with disabilities. In terms of best practices, the index page scored 100, compared to the search page's score of 96, highlighting a need for slight enhancements in adherence to web development standards on the search page. Finally, both pages maintained an SEO score of 90, indicating effective search engine optimisation strategies. Overall, these results demonstrate strong functionality and inclusivity across both pages, with specific attention needed on the search page for accessibility and best practices.
+
+
+
