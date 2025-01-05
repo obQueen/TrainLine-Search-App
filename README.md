@@ -42,22 +42,22 @@ The project development, while not a full Continuous Integration (CI) pipeline, 
 # User Documentation
 In order to run this application:
 1. Ensure Node.js and npm are installed or follow instruction on ![Nodejs Stie](https://nodejs.org/en)
-* node -v
-* npm -v
+  * node -v
+  * npm -v
 
 2. Clone Repository
-* git clone [your-repository-url]
+  * git clone [your-repository-url]
   
 3. Navigate to the project directory
    
 4. Install dependencies:
-* npm install --save-dev http-server
+  * npm install --save-dev http-server
   
 5. To Run the application:
-* npm start
+  * npm start
 
 6. To Run Test
-* npm test 
+  * npm test 
 
 ### Using The Application
 
