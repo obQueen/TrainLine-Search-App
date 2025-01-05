@@ -64,7 +64,7 @@ In order to run this application:
 * Results will appear below the search box.
 
 #### Wildcard (*) Search
-You can use '*' as a suffix, prefix or both. For example, \*Express\, \City*\, \*Central\*
+You can use '*' as a suffix, prefix or both. For example, \*Express\, 'City*', or \*Central\*
  
 #### Boolean Search
 Select 'OR' for records meeting one criterion or 'AND' for records meeting all criteria. Combine with wildcard options for refined results. 
