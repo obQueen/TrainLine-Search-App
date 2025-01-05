@@ -10,11 +10,11 @@ Author GitHub Username: @obQueen
 The Train Line Information Search Application is designed to provide users with a seamless way to search for train lines and routes using flexible and advanced search criteria. By integrating features like wildcard searches and logical operators, the app ensures that users can quickly and efficiently find the information they need. Below are the key highlights and benefits of this application:
 
 ### Key Features
-*  Search Functionality:
+Search Functionality:
   *    Wildcard Support: Allows users to include * or % in their search to match any sequence of characters in line names or routes.
   *    Logical Operators: Enables users to combine search criteria with AND/OR logic for more refined results.
   *    Real-Time Updates: Incorporates live data from train schedules and disruption APIs to ensure up-to-date and accurate information.
-*  Dynamic Results Display:
+Dynamic Results Display:
   *  Results are shown in a user-friendly table format, clearly listing train line names and their corresponding routes.
   *  Includes a "No Results Found" message for unmatched queries, ensuring clarity and user feedback.
 
