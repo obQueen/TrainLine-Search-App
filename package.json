@@ -2,17 +2,24 @@
   "name": "train-line-information-app",
   "version": "1.0.0",
   "description": "A web application for searching UK train lines",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
+    "start": "http-server",
     "test": "jest"
   },
-  "keywords": ["train", "search", "UK", "railway"],
+  "keywords": [
+    "train",
+    "search",
+    "UK",
+    "railway"
+  ],
   "author": "Otitokan Bankole",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "http-server": "^14.1.1",
     "jest": "^27.5.1",
     "jsdom": "^16.6.0"
   },
