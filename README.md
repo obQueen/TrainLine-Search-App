@@ -49,7 +49,7 @@ In order to run this application:
   - git clone [your-repository-url]
   
 3. Navigate to the project directory
-   
+
 4. Install dependencies:
   - npm install --save-dev http-server
   
