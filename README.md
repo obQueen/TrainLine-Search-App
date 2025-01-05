@@ -23,10 +23,7 @@ Dynamic Results Display:
 
 ## **Reason for Creating the App**
 
-Enhancing search capabilities for train line information addresses the shortcomings of current tools, which often lack flexibility and comprehensive functionality. This application provides a modern and intuitive solution to these challenges, offering the following benefits:
-*  Improved Efficiency: By using advanced search capabilities and real-time data, users can access relevant train line information in seconds.
-*  Increased Accuracy: With live updates from trusted APIs, the data is always current, eliminating outdated or incomplete results.
-*  User-Friendly Design: By introducing a search function and organising train line data alphabetically (A-Z), the application offers a more intuitive and user-friendly experience. Users can easily navigate and locate specific information without scrolling through long, cumbersome tables, making the process faster and more efficient.
+Enhancing search capabilities for train line information addresses limitations in existing tools by providing a flexible, intuitive solution. The application improves efficiency with advanced search features and real-time data, ensures accuracy through live API updates, and offers a user-friendly design with alphabetically organised train line data for easy navigation and faster access.
 
 ## Prototype Designs
 
