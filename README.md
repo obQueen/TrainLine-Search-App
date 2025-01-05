@@ -33,15 +33,76 @@ Enhancing search capabilities for train line information addresses the shortcomi
 
 In my organisation, more than one project designs option go through the option selection review. Green is the best and orange is alternative. Any other option will be categorised as red. In the light of this, I  used Figma to create two design options. The design process involved creating interactive prototypes for each concept, allowing for a more realistic representation of the user experience. These prototypes simulated key functionalities such as the alphabet-based search and result display, providing a clearer vision of how users would interact with the application. While ideally, a user survey would have been conducted to gather quantitative feedback, the current busy period in train infrastructure management and timetabling necessitated a more expedient approach. Instead, I opted for a visual check with colleagues, for a quick response turnaround to make a timely decision. 
 
+## Deployed Application
+The project development, while not a full Continuous Integration (CI) pipeline, supports regular code integration via version control, consistent dependency management through npm, and automated testing for code validation. Built using Express.js for server-side functionality and Jest for unit testing, the train line information app was developed incrementally, with each component thoroughly tested after creation. This methodical approach contributed to the app's reliability and overall quality, reflecting best practices in software development.
 
+**Live App**
 
+# User Documentation
+In order to run this application:
+1. Ensure Node.js and npm are installed or follow instruction on ![Nodejs Stie](https://nodejs.org/en)
+* node -v
+* npm -v
 
+2. Clone Repository
+* git clone [your-repository-url]
+  
+3. Navigate to the project directory
+   
+4. Install dependencies:
+* npm install --save-dev http-server
+  
+5. To Run the application:
+* npm start
 
+6. To Run Test
+* npm test 
 
-## Project Management
+### Using The Application
+
+#### Basic Search
+* In the search box, type the name of a train line or a route you want to find.
+* Click the "Search" button or press Enter.
+* Results will appear below the search box.
+
+#### Wildcard Search
+You can use '*' as a wildcard in your search. To find line name or route:
+* starting with "London": Type "London*" and search.
+* starting with "A": Type "A*" and search.
+* ending with "Express": Type "*Express" and search.
+* containing "West": Type "*West*" and search.
+
+ 
+#### Boolean Search
+You can select 'OR' or 'AND' in your search. 
+* Use any of the options listed under wildcard search
+* select OR for records that meet atleast one of the entry criteria in the user input fields
+* select AND for records that meet both of the entry criteria  user input fields
+
+##### Reading Search Results
+Results are displayed on screen in table format
+Each record shows the line name and its route.
+If no results are found, you'll see a message indicating "No Results Found".
+
+##### Troubleshooting
+
+* No Results Found
+ * Check your spelling.
+ * Try using wildcards for a broader search.
+ * Ensure you're connected to the internet.
+
+* Page Not Loading
+ * Check your internet connection.
+ * Try refreshing the page.
+ * Clear your browser cache and try again.
+
+#### Feedback and Support
+If you encounter any issues or have suggestions for improvement, please contact us page **[insert contact email/form here].**
+
+# Project Management
 For the Train Line Information Search Application, an incremental linear approach was employed using GitHub Projects to streamline development and gradually add features to the prototype. This structured methodology involved upfront requirements gathering, incremental feature development, and rigorous testing of each component before progression. Visual task tracking through a Kanban board facilitated risk management and error detection, enabling quicker delivery of functional prototypes and simplified testing of smaller, manageable increments. The combination of structured workflows and iterative refinement ensured the effective and collaborative development of the application while maintaining flexibility for enhancements.
 
-## Ticketing System
+# Ticketing System
 To capture and manage requirements for the Train Line Information Search Application, I utilised GitHub Issues and a comprehensive feature branching strategy within the project repository. Each requirement was documented as a separate issue with descriptive titles, detailed descriptions, and relevant labels for easy categorisation. I created dedicated feature branches for each new functionality or task, allowing for isolated development and testing. As work progressed, these branches were managed through pull requests, which facilitated code review and simulated would-be discussion before merging changes into the main branch.
 
 The GitHub Projects Kanban board was used to visualise these issues and track their progress, with columns representing different stages of development (e.g., "To Do", "In Progress", and "Done"). When a feature was completed and tested, the corresponding pull request was created to merge the branch into the main branch. This approach enabled systematic requirement tracking, facilitated collaborative development, and provided a transparent view of the project's status.
