@@ -45,7 +45,7 @@ In order to run this application:
   - npm -v
 
 2. Clone Repository
-  - git clone [your-repository-url]
+  - git clone https://github.com/obQueen/TrainLine-Search-App.git
   
 3. Navigate to the project directory
 
