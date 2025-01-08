@@ -90,7 +90,7 @@ The GitHub Projects Kanban board was used to visualise these issues and track th
 
 By leveraging GitHub's issue tracking, feature branching, and pull request features, I could incrementally add and refine features to the prototype. This method ensured visibility into the project's scope and progress, supporting effective communication, development, and delivery of the Train Line Information Search Application.
 
-![Image alt](https://github.com/obQueen/TrainLine-Search-App/blob/57393e50b2f69eb6e94f2a2060a046675692d49b/Kanban.png)
+![Ticketing System](https://github.com/obQueen/TrainLine-Search-App/blob/57393e50b2f69eb6e94f2a2060a046675692d49b/Kanban.png "Ticketing System)
 
 
 # Code and Design
