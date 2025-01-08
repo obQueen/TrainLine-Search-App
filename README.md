@@ -230,4 +230,4 @@ Chrome(n.d) Introduction to lighthouse [Online]. Available at: https://developer
 
 Mayer, D(2023) Currency Converter App [Online]. Available at: https://github.com/EDGENortheastern/dan-m-dec22.git (Accessed: 27 December, 2024)
 
-Merode, H (2023) Continuous Integration (CI) and Continuous Delivery (CD) [PDF]. Available at: https://link-springer-com.ezproxy.neu.edu/book/10.1007/978-1-4842-9228-0 (Accessed:05 January, 2025)
+Merode, H (2023) *Continuous Integration (CI) and Continuous Delivery (CD): A Practical Guide to Designing and Developing Pipelines* [PDF], Springer Nature. Available at: https://link-springer-com.ezproxy.neu.edu/book/10.1007/978-1-4842-9228-0 (Accessed:05 January, 2025)
