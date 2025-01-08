@@ -9,7 +9,7 @@ Author GitHub Username: @obQueen
 # **Train Line Information Search Application**
 The Train Line Information Search Application is designed to provide users with a seamless way to search for train lines and routes using flexible and advanced search criteria. By integrating features like wildcard searches and logical operators, the app ensures that users can quickly and efficiently find the information they need. Below are the key highlights and benefits of this application:
 
-### Key Features
+## Key Features
 Search Functionality:
   *    Wildcard Support: Allows users to include * or % in their search to match any sequence of characters in line names or routes.
   *    Logical Operators: Enables users to combine search criteria with AND/OR logic for more refined results.
@@ -58,7 +58,7 @@ In order to run this application:
 6. To Run Test
   - npm test 
 
-### Using The Application
+## Using The Application
 
 #### Basic Search
 * Enter a train line or route name in the search box.
@@ -163,7 +163,7 @@ Throughout the development of the Train Line Information Search Application, I a
 
 I conducted both manual user acceptance test and automated testing to ensure all functionalities worked as intended. Manual testing involved structured forms listing actions and expected results for validation. Automated unit testing, using Jest and jsdom, focused on key features like API integration and search functionality (api.test.js and search.test.js).
 
-### Manual Testing Process
+## Manual Testing Process
 
 1. **Test Plan Creation**: I created a test plan that included specific actions associated with key functionalities of the application. Each action was paired with an expected outcome to provide clear criteria for evaluation.
 
@@ -182,7 +182,7 @@ I conducted both manual user acceptance test and automated testing to ensure all
 
 4. **Issue Identification**: Any failures reported were documented, allowing for prompt investigation and resolution of issues.
 
-### Results
+## Results
 
 The manual testing approach allowed for direct user interaction with the application, providing immediate feedback on functionality and user experience. This method ensured that any issues were identified early in the development process, leading to a more reliable and user-friendly Train Line Information Search Application.
 
@@ -192,7 +192,7 @@ To evaluate and improve the quality of the web application, I used Google Lighth
 
 ![Manual User Acceptance Form](https://github.com/obQueen/TrainLine-Search-App/blob/862e4f051378a4d7a77dc63940d4c99df8fc5c96/Manual%20App%20Test.pdf)
 
-### **Unit Testing**
+## **Unit Testing**
 
 Unit testing, defined as testing "the smallest functional unit of code" (AWS, 2024), was conducted for the "Train Line Information App" using Jest. Following an incremental lifecycle, tests validated each feature, including the `performSearch` function, before progressing. This function, which filters train lines and updates the DOM, was tested for input validation, AND/OR search functionality, and no-match scenarios.
 
@@ -203,7 +203,7 @@ The test suite used `jsdom` for DOM simulation, `beforeEach` for a clean environ
 ![Unit Test - Search](https://github.com/obQueen/TrainLine-Search-App/blob/92a10214552c2c876cbfbd20b7a3970dd420a49c/Unit%20Test%20-Search.png)
 
 
-### **Performance and Accessibility Testing**
+## **Performance and Accessibility Testing**
 "Lighthouse is an open-source, automated tool for analysing a web page in order to help the developer improve such page(s). The metrics being analysed for this application are: performance, accessibility, best practice, and Search Engine Optimisation(SEO)"(Chrome, n.d) .
 
 * Performance: Measure focuses on speed and responsiveness.
