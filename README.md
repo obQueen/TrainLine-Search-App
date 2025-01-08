@@ -222,5 +222,5 @@ The Train Line Information Search Application effectively meets its purpose by p
 To improve the application, addressing accessibility issues, such as colour contrast and screen reader support, is recommended. Additionally, implementing CI/CD practices, such as GitHub Actions, would streamline updates and testing processes. Regular user testing could provide insights into usability, ensuring alignment with user needs. These enhancements, alongside consistent updates, would solidify the application’s position as a reliable and user-friendly platform for train line information.
 
 
-# REFERENCES
+# References
 Chrome(n.d) Introduction to Lighthouse [Online]. Available at: https://developer.chrome.com/docs/lighthouse/overview. (Accessed: 05 January, 2025)
