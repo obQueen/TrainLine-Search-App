@@ -232,4 +232,4 @@ Mayer, D(2023) Currency Converter App [Online]. Available at: https://github.com
 
 Merode, H (2023) *Continuous Integration (CI) and Continuous Delivery (CD): A Practical Guide to Designing and Developing Pipelines* [PDF], Springer Nature. Available at: https://link-springer-com.ezproxy.neu.edu/book/10.1007/978-1-4842-9228-0 (Accessed: 05 January, 2025)
 
-W3schools() Node.js Tutorial [Online]. https://www.w3schools.com/nodejs/ Available at: (Accessed: 22 December, 2024)
+W3schools(n.d) Node.js Tutorial [Online]. https://www.w3schools.com/nodejs/ Available at: (Accessed: 22 December, 2024)
