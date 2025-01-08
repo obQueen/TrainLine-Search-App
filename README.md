@@ -216,11 +216,11 @@ The test suite used `jsdom` for DOM simulation, `beforeEach` for a clean environ
 
 The Lighthouse performance audit reveals consistent high scores across the train line information app's index (home) and search pages. Both pages achieved perfect scores of 100 in performance, indicating exceptional optimisation for speed and responsiveness. The accessibility score for the index page is 100, while the search page scored 92, suggesting minor areas for improvement in usability, particularly for users with disabilities. In terms of best practices, the index page scored 100, compared to the search page's score of 96, highlighting a need for slight enhancements in adherence to web development standards on the search page. Finally, both pages maintained an SEO score of 90, indicating effective search engine optimisation strategies. Overall, these results demonstrate strong functionality and inclusivity across both pages, with specific attention needed on the search page for accessibility and best practices.
 
-# DESIGN EVALUATION
+# Design Evaluation
 The Train Line Information Search Application effectively meets its purpose by providing users with a streamlined platform to locate train lines and routes. Its intuitive interface features clear navigation, well-structured search functionalities, and a dynamic results table, ensuring ease of use. Advanced features, such as wildcard support and logical operators (AND/OR), allow users to refine queries efficiently. Visual hierarchy, with appropriate spacing and clear labels, enhances readability while preventing information overload. The application achieves exceptional performance scores, with both the home and search pages scoring 100 in Lighthouse performance metrics, though minor accessibility improvements could further enhance inclusivity.
 
 To improve the application, addressing accessibility issues, such as colour contrast and screen reader support, is recommended. Additionally, implementing CI/CD practices, such as GitHub Actions, would streamline updates and testing processes. Regular user testing could provide insights into usability, ensuring alignment with user needs. These enhancements, alongside consistent updates, would solidify the application’s position as a reliable and user-friendly platform for train line information.
 
 
-## REFERENCES
+# REFERENCES
 Chrome(n.d) Introduction to Lighthouse [Online]. Available at: https://developer.chrome.com/docs/lighthouse/overview. (Accessed: 05 January, 2025)
