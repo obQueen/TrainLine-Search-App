@@ -31,6 +31,8 @@ Enhancing search capabilities for train line information addresses limitations i
 
 In my organisation, project design options undergo an option selection review, where designs are categorised as green for the best choice, orange for alternatives, and red for non-viable options. Following this approach, I used Figma to create two interactive design prototypes. These prototypes simulated core functionalities, such as alphabet-based search and result display, offering a realistic representation of the user experience. Due to the busy period in train infrastructure management and timetabling, a user survey was not feasible. Instead, I conducted a visual review with colleagues to obtain swift feedback and make a timely decision. 
 
+![User Interface Design Option Form](https://github.com/obQueen/TrainLine-Search-App/blob/5ed1750bbd7cf3112a4455360e1f72489db08c89/TrainLine-Design-Options.png "User Interface Design Option Form")
+
 ## Deployed Application
 The project development, while not a full Continuous Integration (CI) pipeline, supports regular code integration via version control, consistent dependency management through npm, and automated testing for code validation. Built using Express.js for server-side functionality and Jest for unit testing, the train line information app was developed incrementally, with each component thoroughly tested after creation. This methodical approach contributed to the app's reliability and overall quality, reflecting best practices in software development.
 
