@@ -40,7 +40,7 @@ The project development, while not a full Continuous Integration (CI) pipeline, 
 
 # User Documentation
 In order to run this application:
-1. Ensure Node.js and npm are installed or follow instruction on ![Nodejs Stie](https://nodejs.org/en)
+1. Ensure Node.js and npm are installed or follow instruction on https://nodejs.org/en
   - node -v
   - npm -v
 
