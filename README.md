@@ -223,4 +223,10 @@ To improve the application, addressing accessibility issues, such as colour cont
 
 
 # References
-Chrome(n.d) Introduction to Lighthouse [Online]. Available at: https://developer.chrome.com/docs/lighthouse/overview. (Accessed: 05 January, 2025)
+AWS(2024) What is unit testing? [Online]. Available at: https://aws.amazon.com/what-is/unit-testing/ (Accessed: 27 December, 2024)
+
+Chrome(n.d) Introduction to lighthouse [Online]. Available at: https://developer.chrome.com/docs/lighthouse/overview (Accessed:05 January, 2025)
+
+Mayer, D(2023) Currency Converter App [Online]. Available at: https://github.com/EDGENortheastern/dan-m-dec22.git (Accessed: 27 December, 2024)
+
+Merode, H (2023) Continuous Integration (CI) and Continuous Delivery (CD) [PDF]. Available at: https://link-springer-com.ezproxy.neu.edu/book/10.1007/978-1-4842-9228-0 (Accessed:05 January, 2025)
