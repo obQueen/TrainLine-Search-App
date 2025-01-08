@@ -1,4 +1,4 @@
-# Software Engineering Summative 1
+ # Software Engineering Summative 1
 
 For Northeastern University
 
@@ -36,7 +36,7 @@ In my organisation, project design options undergo an option selection review, w
 ## Deployed Application
 The project development, while not a full Continuous Integration (CI) pipeline, supports regular code integration via version control, consistent dependency management through npm, and automated testing for code validation. Built using Express.js for server-side functionality and Jest for unit testing, the train line information app was developed incrementally, with each component thoroughly tested after creation. This methodical approach contributed to the app's reliability and overall quality, reflecting best practices in software development.
 
-**Live App**
+*  [Live App](https://obqueen.github.io/TrainLine-Search-App/)
 
 # User Documentation
 In order to run this application:
