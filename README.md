@@ -126,8 +126,9 @@ By leveraging GitHub's issue tracking, feature branching, and pull request featu
 
 ### **User End Links**
 
-* **Repo name: **
-* **Repo link: **
+* Repo name: obQueen
+* Repo link: https://github.com/obQueen/TrainLine-Search-App.git](https://github.com/obQueen/TrainLine-Search-App
+* Data Source: http://www.railwaycodes.org.uk/line/line_names.shtm
 
 
 **After cloning the project, No API key is required to run this application. The app fetches data from a public website (http://www.railwaycodes.org.uk/line/line_names.shtm) using a CORS proxy (https://api.allorigins.win) to bypass cross-origin restrictions.**
