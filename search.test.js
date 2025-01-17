@@ -1,6 +1,6 @@
 // search.test.js
 
-// Mocking trainLines globally for testing
+// Initail test with mock data
 let trainLines = [];
 
 // Function to perform search
